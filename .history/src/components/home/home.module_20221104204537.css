@@ -1,0 +1,23 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(C:/Users/songeun/react/react-basic/youngrangho/public/images/main.png);
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 600px;
+}
+
+.text {
+  font-family: "Noto Serif KR", serif;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 100;
+  color: white;
+}

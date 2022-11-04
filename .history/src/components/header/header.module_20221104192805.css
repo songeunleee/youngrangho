@@ -1,0 +1,13 @@
+.header {
+  border: 1px solid red;
+  background-color: #b5c7db;
+  display: flex;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.button {
+  background: none;
+  cursor: pointer;
+}

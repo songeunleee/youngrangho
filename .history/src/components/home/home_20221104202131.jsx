@@ -1,0 +1,16 @@
+import React from "react";
+import Header from "../header/header";
+import styles from "./home.module.css";
+
+const Home = (props) => (
+  <section className={styles.home}>
+    <Header />
+    <div>
+      {" "}
+      <img className={styles.img} src="./images/main2.jpg" alt="main" />
+      <p className={styles.text}>영랑호</p>
+    </div>
+  </section>
+);
+
+export default Home;

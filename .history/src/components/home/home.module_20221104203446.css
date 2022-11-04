@@ -1,0 +1,22 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+.img {
+  width: 600px;
+}
+
+.text {
+  font-family: "Noto Serif KR", serif;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 500;
+}

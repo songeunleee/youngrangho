@@ -1,0 +1,8 @@
+@value eng :"Varela Round", sans-serif;
+@value kor : "Noto Sans KR", sans-serif;
+
+@font-face {
+  font-family: "NotoSansKR";
+  src: url("../fonts/notoSansKR/NotoSans-Bold.woff") format("woff");
+  font-style: normal;
+}

@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Noto Serif KR", serif;
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&family=Noto+Serif+KR:wght@200;400&family=Varela+Round&display=swap");
+}
+@font-face {
+  font-family: "Varela Round", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&family=Noto+Serif+KR:wght@200;400&family=Varela+Round&display=swap");
+  font-style: normal;
+}
+
+@value eng : "Varela Round", sans-serif;

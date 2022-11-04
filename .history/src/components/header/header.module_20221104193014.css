@@ -1,0 +1,17 @@
+.header {
+  border: 1px solid red;
+  background-color: #b5c7db;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+.link {
+  flex: 2;
+  text-decoration: none;
+  color: white;
+}
+.button {
+  flex: 1;
+  background: none;
+  cursor: pointer;
+}

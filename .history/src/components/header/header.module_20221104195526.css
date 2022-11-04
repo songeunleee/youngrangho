@@ -1,0 +1,20 @@
+.header {
+  background-color: #b5c7db;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  justify-content: ;
+}
+.link {
+  flex: 2;
+  margin: ;
+  text-decoration: none;
+  color: white;
+  border: 1px solid red;
+}
+.button {
+  flex: 1;
+  background: none;
+  cursor: pointer;
+  border: none;
+}

@@ -1,0 +1,19 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+}
+
+.info {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 1000px;
+}
+
+.text {
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+.header {
+  background-color: #b5c7db;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  justify-content: ;
+}
+.link {
+  flex: 0.8;
+  margin: ;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-family: "Xanh Mono";
+  font-weight: 550;
+  text-align: center;
+}
+.button {
+  font-size: 1rem;
+  flex: 0.2;
+  background: none;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.link {
+}

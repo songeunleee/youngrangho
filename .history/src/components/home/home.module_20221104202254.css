@@ -1,0 +1,17 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 30rem;
+}
+
+.text {
+  text-align: center;
+}
