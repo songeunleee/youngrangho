@@ -1,0 +1,5 @@
+@value mainLightBlue,mainBlue,sideBlue from '../../common/colors.css';
+
+.i {
+  font-size: 200px;
+}

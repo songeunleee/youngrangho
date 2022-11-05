@@ -1,0 +1,12 @@
+import React from "react";
+import styles from "./add_spot.module.css";
+
+const AddSpot = (props) => {
+  return (
+    <div className={styles.border}>
+      <img src="./images/plus.png" alt="" />
+    </div>
+  );
+};
+
+export default AddSpot;

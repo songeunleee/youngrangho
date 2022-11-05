@@ -1,0 +1,15 @@
+@value mainLightBlue,mainBlue,sideBlue from '../../common/colors.css';
+.border {
+  border: 4px dashed mainLightBlue;
+  padding: 1.5rem;
+  width: 194px;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img {
+  max-width: 90%;
+  height: auto;
+}

@@ -1,0 +1,24 @@
+@value mainLightBlue,mainBlue,sideBlue from '../../common/colors.css';
+.border {
+  border: px dashed mainBlue;
+
+  padding: 1rem;
+  width: 190px;
+  height: 190px;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+
+.img {
+  max-width: 90%;
+  height: auto;
+}
+
+.border:hover {
+  background-color: #f0efef;
+  transform: scale(1.02);
+}

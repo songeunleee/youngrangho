@@ -1,0 +1,16 @@
+@value mainBlue from '../../common/colors.css';
+
+.border {
+  border: 1px mainBlue solid;
+  border-radius: 40px;
+  width: 200px;
+  height: 300px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}

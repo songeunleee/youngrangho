@@ -1,0 +1,11 @@
+@value mainLightBlue from '../../common/colors.css';
+
+.border {
+  width: 200px;
+  height: auto;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}

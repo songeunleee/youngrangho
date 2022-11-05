@@ -1,0 +1,8 @@
+@value mainLightBlue,mainBlue,sideBlue from '../../common/colors.css';
+
+.i {
+  border: 1px solid mainLightBlue;
+  padding: 1rem;
+  width: 200px;
+  margin: 1rem;
+}

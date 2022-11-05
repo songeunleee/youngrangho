@@ -1,0 +1,22 @@
+@value mainLightBlue,mainBlue,sideBlue from '../../common/colors.css';
+.border {
+  border: 6px dashed mainBlue;
+
+  padding: 1rem;
+  width: 190px;
+  height: 190px;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.img {
+  max-width: 90%;
+  height: auto;
+}
+
+.border:hover {
+  background-color: rgb(226, 226, 226);
+}

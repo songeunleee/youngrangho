@@ -1,0 +1,12 @@
+@value mediaQuery from '../../common/size.css';
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media screen and (max-width: mediaQuery) {
+  .list {
+    justify-content: center;
+  }
+}
