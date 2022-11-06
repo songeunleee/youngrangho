@@ -1,0 +1,39 @@
+@value mainBlue, sideBlue,mainLightBlue, textWhite from '../../common/colors.css';
+@value mediaQuery from '../../common/size.css';
+.spot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow-y: auto;
+}
+
+.loading {
+  border: 15px solid mainBlue;
+  border-top: 15px solid mainLightBlue;
+  width: 20%;
+  margin: 10%;
+  padding-bottom: 20%;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: mediaQuery) {
+  .loading {
+    border: 10px solid mainBlue;
+    border-top: 10px solid mainLightBlue;
+    width: 20%;
+    margin: 20%;
+    padding-bottom: 20%;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+  }
+}

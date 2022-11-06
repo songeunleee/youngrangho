@@ -1,0 +1,10 @@
+@value mediaQuery from '../../common/size.css';
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  padding: 1rem;
+  justify-content: center;
+}

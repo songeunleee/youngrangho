@@ -1,0 +1,5 @@
+@value mainBlue from '../../common/colors.css';
+
+.footer {
+  background-color: 1px;
+}

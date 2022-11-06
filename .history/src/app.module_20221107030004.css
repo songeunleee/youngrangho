@@ -1,0 +1,6 @@
+.container {
+  height: auto;
+  min-height: 100%;
+  overflow-y: auto;
+  max-height: fit-content;
+}

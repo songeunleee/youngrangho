@@ -1,0 +1,13 @@
+.spot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  border: 10px solid red;
+  width: 40%;
+  margin-top: 25%;
+  padding-bottom: 40%;
+  border-radius: 50%;
+}

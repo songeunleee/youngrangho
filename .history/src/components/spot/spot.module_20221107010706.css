@@ -1,0 +1,25 @@
+@value mainBlue, sideBlue,mainLightBlue, textWhite from '../../common/colors.css';
+.spot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  border: 15px solid mainBlue;
+  border-top: 15px solid mainLightBlue;
+  width: 35%;
+  margin: 5%;
+  padding-bottom: %;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

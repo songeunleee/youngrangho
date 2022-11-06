@@ -1,0 +1,10 @@
+.spot {
+  display: flex;
+  justify-content: center;
+}
+
+.loading {
+  border: 1px solid red;
+  width: 50%;
+  height: 50%;
+}
