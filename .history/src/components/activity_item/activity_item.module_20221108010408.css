@@ -1,0 +1,14 @@
+* {
+  font-family: font2;
+}
+.card {
+  display: ;
+}
+
+.chip {
+  border: 1px solid seagreen;
+  width: max-content;
+  border-radius: 18px;
+  padding: 5px 10px;
+  margin: 1rem;
+}

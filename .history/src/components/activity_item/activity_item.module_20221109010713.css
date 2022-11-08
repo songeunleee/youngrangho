@@ -1,0 +1,117 @@
+@value deleteColor,mainBlue,mainLightBlue,sideBlue,textWhite from '../../common/colors.css';
+
+* {
+  font-family: font2;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px mainLightBlue solid;
+  margin: 1rem 1rem;
+  padding: 0.5rem 0.5rem;
+  width: 20%;
+  height: auto;
+  border-radius: 18px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  margin: 0.5rem;
+
+  border-bottom: 1px dashed mainBlue;
+}
+.author {
+  margin: 0;
+}
+.createTime {
+  margin: 0;
+}
+
+.contentBox {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.chip {
+  font-size: 15px;
+  flex-wrap: nowrap;
+  background-color: mainLightBlue;
+  width: fit-content;
+  border-radius: 18px;
+  padding: 5px 10px;
+  margin: 0.25rem 0.25rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+}
+
+.chip.appointment {
+  background-color: mainBlue;
+}
+
+.chip.goal {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.G {
+  position: relative;
+  background-color: sideBlue;
+  border-radius: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  right: 10px;
+}
+
+.chip:hover {
+}
+.chipDelete {
+  display: none;
+  color: rgb(255, 255, 255);
+  margin-left: 0.3rem;
+  opacity: 0.9;
+  border: none;
+}
+
+.joinbtn {
+  font-size: 1rem;
+  font-family: font3;
+  padding: 0.3rem;
+  margin: 0.2rem;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  transition: all ease 200ms;
+}
+
+.joinbtn:hover {
+  background-color: #1aa364;
+  transform: scale(1.02);
+}
+
+.delete {
+  display: none;
+  font-size: 1rem;
+  font-family: font3;
+  padding: 0.4rem;
+  margin: 0.2rem;
+  border-radius: 18px;
+  border: none;
+  background-color: deleteColor;
+  cursor: pointer;
+  transition: transform ease-in 100ms;
+}
+
+.delete:hover {
+  transform: scale(1.02);
+}

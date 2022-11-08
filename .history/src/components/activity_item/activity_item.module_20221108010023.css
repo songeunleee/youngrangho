@@ -1,0 +1,10 @@
+* {
+  font-family: font2;
+}
+.card {
+  display: flex;
+}
+
+.chip {
+  border: 1px solid seagreen;
+}

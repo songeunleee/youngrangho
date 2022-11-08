@@ -1,0 +1,13 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin: 0.7rem 0.5rem;
+}
+
+.img {
+  width: 1.8rem;
+  border-radius: 50%;
+}
+
+.name {
+}

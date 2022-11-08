@@ -1,0 +1,66 @@
+@value mainBlue,mainLightBlue,sideBlue,textWhite from '../../common/colors.css';
+
+* {
+  font-family: font2;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px mainLightBlue solid;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
+  width: 20%;
+  height: auto;
+}
+.info {
+}
+.author {
+  margin: 0;
+  padding: 0.5rem;
+  border: 1px solid red;
+}
+.createTime {
+  margin: 0;
+  padding: 1rem;
+}
+
+.contentBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  border: 1px red solid;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  border: 1px red solid;
+}
+.chip {
+  height: max-content;
+  font-size: 15px;
+  flex-wrap: nowrap;
+  background-color: mainLightBlue;
+  width: fit-content;
+  border-radius: 18px;
+  padding: 5px 10px;
+  margin: 0.25rem 0.25rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+}
+
+.chip.appointment {
+  background-color: mainBlue;
+}
+.chip:hover {
+  transform: ;
+}
+.chipDelete {
+  color: rgb(255, 255, 255);
+  margin-left: 0.3rem;
+  opacity: 0.9;
+  border: none;
+}

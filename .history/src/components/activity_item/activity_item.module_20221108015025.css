@@ -1,0 +1,35 @@
+* {
+  font-family: font2;
+}
+.card {
+  border: 1px lightgrey solid;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
+  width: 25%;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.chip {
+  border: 1.5px solid seagreen;
+  width: max-content;
+
+  border-radius: 18px;
+  padding: 5px 10px;
+  margin: 0.25rem 0.25rem;
+  background-color: seagreen;
+  display: flex;
+  align-items: center;
+}
+
+.chipDelete {
+  color: white;
+  margin-left: 0.2rem;
+  font-size: 0.9rem;
+  padding: 0.1rem 0.2rem;
+
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.397);
+}

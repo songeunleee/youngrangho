@@ -1,0 +1,41 @@
+* {
+  font-family: font2;
+}
+.card {
+  border: 1px lightgrey solid;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
+  width: 25%;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.chip {
+  border: 1.5px solid seagreen;
+  width: max-content;
+  border-radius: 18px;
+  padding: 5px 10px;
+  margin: 0.25rem 0.25rem;
+  background-color: seagreen;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 150ms ease-in;
+}
+
+.chip:hover .chipDelete {
+  display: block;
+  transform: scale(1.02);
+}
+
+.chipDelete {
+  display: none;
+  color: white;
+  margin-left: 0.3rem;
+  font-size: 1rem;
+  padding: 0.09rem 0.2rem;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.397);
+}
