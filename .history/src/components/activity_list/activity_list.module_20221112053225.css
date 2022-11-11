@@ -1,0 +1,59 @@
+@value mediaQuery1, mediaQuery2 from '../../common/size.css';
+@value joinColor,deleteColor,mainBlue,mainLightBlue,sideBlue,textWhite from '../../common/colors.css';
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  margin: 1rem 1rem;
+  margin-bottom: 0;
+  padding: 0.5rem 10px;
+  width: 380px;
+  transition: all ease-in 200ms;
+}
+
+.addCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px dashed mainLightBlue;
+  height: 224px;
+  animation: fade-in 1s;
+  animation-fill-mode: forwards;
+  display: flex;
+  justify-content: center;
+  border-radius: 18px;
+}
+
+.img {
+  font-size: 10rem;
+  font-weight: 100;
+  color: mainLightBlue;
+}
+
+.box:hover {
+  transform: scale(1.02);
+}
+
+.list {
+  width: 1300px;
+  display: flex;
+
+  flex-wrap: wrap;
+
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: mediaQuery1) {
+  .list {
+    width: 865px;
+  }
+}
+
+@media screen and (max-width: mediaQuery2) {
+  .list {
+    width: 450px;
+  }
+}

@@ -1,0 +1,24 @@
+.react-datepicker__current-month {
+  margin: 0;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+.react-datepicker__input-container {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+}
+
+.datePicker {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+}
+
+input[type="date"]::-webkit-datetime-edit-text {
+  -webkit-appearance: none;
+  display: none;
+}

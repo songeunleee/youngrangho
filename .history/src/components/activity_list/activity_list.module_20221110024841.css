@@ -1,0 +1,19 @@
+@value mediaQuery from '../../common/size.css';
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  width: 1300px;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: ;
+  margin-top: 0.5rem;
+}
+@media screen and (max-width: mediaQuery1) {
+  .list {
+    justify-content: center;
+  }
+}

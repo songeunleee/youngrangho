@@ -1,0 +1,79 @@
+@value textWhite,mainLightBlue,mainBlue,sideBlue from '../../common/colors.css';
+
+.border {
+  max-width: 200px;
+  flex: 1;
+  border: 1px solid mainLightBlue;
+  padding: 1rem;
+
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  animation: fade-in 1s;
+  animation-fill-mode: forwards;
+}
+
+.i {
+  display: none;
+  font-size: 6rem;
+  color: textWhite;
+  padding: 1rem;
+  align-self: center;
+  justify-self: center;
+  opacity: 0.8;
+}
+
+.border:hover .i.deletebtn {
+  display: flex;
+  position: absolute;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.loading {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.icon {
+  color: sideBlue;
+}
+.userName {
+  margin: 0;
+  font-family: "font3";
+  margin-left: 0.5rem;
+  color: sideBlue;
+}
+
+.time {
+  font-size: 0.7rem;
+  margin: 0;
+  font-family: "font3";
+  margin-left: 0.5rem;
+  color: mainBlue;
+}
+@keyframes fade-in {
+  0% {
+    transform: translateY(-30%);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

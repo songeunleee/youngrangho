@@ -1,0 +1,11 @@
+.container {
+  margin: 1rem 1rem;
+  margin-bottom: 0;
+  padding: 0.5rem 10px;
+  max-width: 380px;
+}
+
+.addCard {
+  border: 1px solid;
+  padding: 0.5rem 0.5rem;
+}

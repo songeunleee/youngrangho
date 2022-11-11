@@ -1,0 +1,11 @@
+@value mediaQuery from '../../common/size.css';
+
+.spotlist {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 1rem;
+
+  width: 90%;
+}

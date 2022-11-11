@@ -1,0 +1,11 @@
+@value joinColor,deleteColor,mainBlue,mainLightBlue,sideBlue,textWhite from '../../common/colors.css';
+
+.container {
+  margin: 1rem 1rem;
+  margin-bottom: 0;
+  padding: 0.5rem 10px;
+  width: 380px;
+}
+
+.img {
+}

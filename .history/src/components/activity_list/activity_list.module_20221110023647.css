@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  width: 1200px;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  margin-top: 0.5rem;
+}

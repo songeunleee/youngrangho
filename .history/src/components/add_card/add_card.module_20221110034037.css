@@ -1,0 +1,26 @@
+@value joinColor,deleteColor,mainBlue,mainLightBlue,sideBlue,textWhite from '../../common/colors.css';
+
+.container {
+  margin: 1rem 1rem;
+  margin-bottom: 0;
+  padding: 0.5rem 10px;
+  width: 380px;
+}
+
+.addCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px dashed mainLightBlue;
+  height: 224px;
+  animation: fade-in 1s;
+  animation-fill-mode: forwards;
+
+  border-radius: 18px;
+}
+
+.img {
+  font-size: 10rem;
+  font-weight: 100;
+  color: mainLightBLue;
+}

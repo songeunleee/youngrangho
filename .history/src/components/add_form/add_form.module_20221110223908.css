@@ -1,0 +1,9 @@
+.DatePicker {
+  background-color: white;
+  border: none;
+  padding: 0.5rem;
+}
+
+.react-datepicker {
+  font-size: 1.3rem !important;
+}

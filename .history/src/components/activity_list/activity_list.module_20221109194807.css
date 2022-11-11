@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  width: 90%;
+  margin-top: 0.5rem;
+}
