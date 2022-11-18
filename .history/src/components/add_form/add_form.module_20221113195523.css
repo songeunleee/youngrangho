@@ -1,0 +1,47 @@
+@value mainBlue, sideBlue,mainLightBlue, textWhite from '../../common/colors.css';
+@value mediaQuery from '../../common/size.css';
+.container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.datepiker {
+  border: none;
+  font-size: 1rem;
+  background-color: mainLightBlue;
+  padding: 0.5rem;
+  width: 284px;
+}
+
+.input {
+  margin: 0.5rem;
+  background-color: mainLightBlue;
+  outline: 0;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.appointment {
+  display: flex;
+  align-content: center;
+}
+
+.button {
+  background-color: sideBlue;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}

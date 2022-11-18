@@ -1,0 +1,16 @@
+.react-datepicker__input-container {
+  display: flex;
+  justify-content: center;
+}
+.react-datepicker-wrapper {
+  max-width: 300px;
+}
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list
+  li.react-datepicker__time-list-item--selected {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}

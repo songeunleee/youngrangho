@@ -1,0 +1,12 @@
+.react-datepicker__input-container {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+}
+
+.datePicker {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+}

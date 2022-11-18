@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: center/80% no-repeat white;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+  cursor: pointer;
+}

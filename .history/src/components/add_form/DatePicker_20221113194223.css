@@ -1,0 +1,9 @@
+.react-datepicker__input-container {
+  display: flex;
+  justify-content: center;
+
+  margin: 0.5rem;
+}
+.react-datepicker-wrapper {
+  width: max-content;
+}
