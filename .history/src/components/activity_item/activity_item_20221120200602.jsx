@@ -4,7 +4,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import JoinItem from "../join_item/join_item";
 import JoinList from "../join_list/join_list";
 import styles from "./activity_item.module.css";
 

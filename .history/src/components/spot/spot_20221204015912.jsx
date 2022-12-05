@@ -17,7 +17,7 @@ const Spot = ({ authService, user, fileUpload, repository }) => {
       setSpots(spots);
       setloading(false);
     });
-  }, [user, repository]);
+  }, []);
 
   const addSpot = (spot) => {
     setSpots((spots) => {

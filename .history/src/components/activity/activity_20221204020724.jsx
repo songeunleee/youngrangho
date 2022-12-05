@@ -16,13 +16,11 @@ const Activity = ({ authService, user, repository }) => {
 
   useEffect(() => {
     setloading(true);
-    repository.syncActivities(user && user.uid, (cards) => {
+    const stopSynk = repository.syncActivities(user && user.uid, (cards) => {
       setCards(cards);
       setloading(false);
     });
   }, [user, repository]);
-
-  console.log(cards);
 
   const deleteCard = (card) => {
     const updated = { ...cards };

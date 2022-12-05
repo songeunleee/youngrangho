@@ -60,7 +60,17 @@ const AddForm = ({ repository, user }) => {
   };
 
   useEffect(() => {
-    if (!user) {
+    if (user) {
+      Swal.fire({
+        title: "로그인 후 이용가능 합니다",
+        text: "Plese sign in",
+        imageUrl: "./images/log-in.png",
+        imageWidth: 200,
+        imageHeight: 200,
+        confirmButtonColor: " #7396bf",
+        confirmButtonText: "확인",
+        imageAlt: "Custom image",
+      });
       navigate(-1);
     }
   }, []);

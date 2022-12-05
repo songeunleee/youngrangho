@@ -1,10 +1,10 @@
-import React, { memo, useRef } from "react";
+import React, { useRef } from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import Swal from "sweetalert2";
 import styles from "./add_spot.module.css";
 
-const AddSpot = memo(({ user, onAdd, fileUpload }) => {
+const AddSpot = ({ user, onAdd, fileUpload }) => {
   const [loading, setloading] = useState(false);
   const inputRef = useRef();
 
@@ -49,6 +49,6 @@ const AddSpot = memo(({ user, onAdd, fileUpload }) => {
       <img className={styles.img} src="./images/plus (4).png" alt="" />
     </div>
   );
-});
+};
 
 export default AddSpot;

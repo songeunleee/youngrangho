@@ -2,7 +2,6 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import ActivityItem from "../activity_item/activity_item";
 import styles from "./activity_list.module.css";
-import Swal from "sweetalert2";
 
 const ActivityList = ({ cards, user, addJoin, DropJoin, deleteCard }) => {
   const navigate = useNavigate();

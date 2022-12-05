@@ -5,10 +5,10 @@ import styles from "./spot_item.module.css";
 const SpotItem = memo(({ spot, user, onDelete }) => {
   const { fileURL, id, userName, uploadTime, userUid } = spot;
 
-  const onClick = useCallback(() => {
+  const onClick = () => {
     (user && user.uid) === userUid && onDelete(spot);
-  });
-  console.log("spot_item");
+  };
+
   const publishedAt = (publishedAt) => {
     const now = new Date();
     const time = new Date(publishedAt);

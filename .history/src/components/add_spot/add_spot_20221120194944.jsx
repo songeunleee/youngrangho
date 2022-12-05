@@ -50,5 +50,4 @@ const AddSpot = memo(({ user, onAdd, fileUpload }) => {
     </div>
   );
 });
-
 export default AddSpot;

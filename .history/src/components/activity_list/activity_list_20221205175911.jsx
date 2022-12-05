@@ -2,23 +2,11 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import ActivityItem from "../activity_item/activity_item";
 import styles from "./activity_list.module.css";
-import Swal from "sweetalert2";
 
 const ActivityList = ({ cards, user, addJoin, DropJoin, deleteCard }) => {
   const navigate = useNavigate();
   const clickAddCard = () => {
-    user
-      ? navigate("/add")
-      : Swal.fire({
-          title: "로그인 후 이용가능 합니다",
-          text: "Plese sign in",
-          imageUrl: "./images/log-in.png",
-          imageWidth: 200,
-          imageHeight: 200,
-          confirmButtonColor: " #7396bf",
-          confirmButtonText: "확인",
-          imageAlt: "Custom image",
-        });
+    user && navigate("/add");
   };
   return (
     <section className={styles.container}>

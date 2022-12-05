@@ -17,6 +17,7 @@ const Spot = ({ authService, user, fileUpload, repository }) => {
       setSpots(spots);
       setloading(false);
     });
+    return () => stopSynk();
   }, [user, repository]);
 
   const addSpot = (spot) => {

@@ -22,8 +22,6 @@ const Activity = ({ authService, user, repository }) => {
     });
   }, [user, repository]);
 
-  console.log(cards);
-
   const deleteCard = (card) => {
     const updated = { ...cards };
     delete updated[card.id];

@@ -8,7 +8,7 @@ const SpotItem = memo(({ spot, user, onDelete }) => {
   const onClick = useCallback(() => {
     (user && user.uid) === userUid && onDelete(spot);
   });
-  console.log("spot_item");
+
   const publishedAt = (publishedAt) => {
     const now = new Date();
     const time = new Date(publishedAt);
